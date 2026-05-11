@@ -1,0 +1,725 @@
+* Container styling */
+.neon-container {
+   margin-left: 500px;
+    margin-top: -100px;
+
+}
+
+/* Neon text styling */
+.neon-text {
+    font-size: 14pt;
+    color: rgb(255, 0, 0); /* Neon color (cyan) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+
+
+
+
+
+
+/* Lightbox container - initially hidden */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Dark overlay */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Show lightbox when targeted */
+  :target {
+    display: flex;
+  }
+  
+  /* Prevent scrolling when the lightbox is open */
+  body.lightbox-open {
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Lightbox image styling */
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0); /* Optional styling */
+    
+  }
+  
+  /* Ensure clicking outside the image closes the lightbox */
+  .lightbox-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+.dog {
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 25px;
+    left: 200px;
+}
+.car {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 300px;
+    left: 300px;
+}
+.phones {
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 75px;
+    left: 600px
+}
+.flag {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 625px;
+    left: 25px
+}
+.cig {
+     position: absolute;
+     width: 325px;
+     height: auto;
+     top: 2125px;
+     left: 1000px
+}
+.finger {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 50px;
+    left: 1000px
+}
+.chain {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 625px;
+    left: 250px
+}
+.lottery {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 450px;
+    left: 1000px
+}
+.smoke {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 800px;
+    left: 500px
+}
+.sugarhills {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 950px;
+    left: 100px
+}
+.cross {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 1150px;
+    left: 875px
+}
+.hassid {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 850px;
+    left: 1000px
+}
+.balloon {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 1300px;
+    left: 50px
+}
+.bike {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 1500px;
+    left: 800px
+}
+.elucid {
+    position: absolute;
+    width: auto;
+    height: 500px;
+    top: 1800px;
+    left: 100px
+}
+.lastcall {
+    position: absolute;
+    width: 375px;
+    height: auto;
+    top: 1925px;
+    left: 550px
+}
+.tribaltattoo {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 1900px;
+    left: 1150px
+}
+.flatbush {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 2450px;
+    left: 600px
+}
+.jump{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 2275px;
+    left: 750px
+}
+.knife {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 2425px;
+    left: 150px
+}
+.suit {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 625px;
+    left: 775px
+}
+.scooter {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 2750px;
+    left: 50px
+}
+
+.wave{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 3300px;
+    left: 1025px
+}
+.keyfood{
+    position: absolute;
+    width: 475px;
+    height: auto;
+    top: 3250px;
+    left: 100px
+}
+.bus{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 3000px;
+    left: 950px
+}
+.blue{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 3000px;
+    left: 600px
+}
+.usa{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 3750px;
+    left: 900px
+}
+.teddy{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 3400px;
+    left: 775px
+}
+.glasses{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    top: 3675px;
+    left: 275px
+}
+
+
+
+
+
+.grandpa02{
+    position: absolute;
+    width: auto;
+    height: 400px;
+    top: 4000px;
+    left: 50px
+}
+.paulie{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 4300px;
+    left: 425px
+}
+.blueandred{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 4250px;
+    left: 850px
+}
+.mg{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 4075px;
+    left: 550px
+}
+.tree{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 4750px;
+    left: 450px
+}
+.eattree{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 4750px;
+    left: 50px
+}
+.jukebox{
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 5050px;
+    left: 700px
+}
+.pizza{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 5100px;
+    left: 100px
+}
+.dan{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 4800px;
+    left: 1000px
+}
+.mirror{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 5250px;
+    left: 1000px
+}
+.windmill{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 5550px;
+    left: 150px
+}
+.mom{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 5600px;
+    left: 675px
+}
+.grandpa{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 6600px;
+    left: 100px
+}
+.aariana{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 6200px;
+    left: 100px
+}
+.fourloko{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 5900px;
+    left: 300px
+}
+.backyard{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 6100px;
+    left: 900px
+}
+.branches{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 6400px;
+    left: 600px
+}
+.christmas{
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 6400px;
+    left: 1100px;
+}
+.shed{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 6850px;
+    left: 800px;
+}
+
+
+
+
+
+.finals{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 7100px;
+    left: 100px;
+}
+.cigar{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 7600px;
+    left: 200px;
+}
+.clutch{
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 7300px;
+    left: 1100px;
+}
+.met{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 7800px;
+    left: 700px;
+}
+.glove{
+    position: absolute;
+    width: 275px;
+    height: auto;
+    top: 7400px;
+    left: 800px;
+}
+.livingroom{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 8150px;
+    left: 100px;
+}
+.monitor{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 8600px;
+    left: 200px;
+}
+.blizzard{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 8450px;
+    left: 775px;
+}
+.dressshoes{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 8850px;
+    left: 1000px;
+}
+.mask{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 9000px;
+    left: 100px;
+}
+.wiisports{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 9100px;
+    left: 450px;
+}
+.isaac{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 9600px;
+    left: 100px;
+}
+.smokebreak{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 9900px;
+    left: 725px;
+}
+.trainoperator{
+    position: absolute;
+    width: 425px;
+    height: auto;
+    top: 10275px;
+    left: 600px;
+}
+.lightningmcqueen{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 9600px;
+    left: 1200px;
+}
+.waiter{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 10100px;
+    left: 150px;
+}
+.mercedez{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 10600px;
+    left: 150px;
+}
+.parade{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 10700px;
+    left: 950px;
+}
+.greg{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 11000px;
+    left: 275px;
+}
+.door{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 325px;
+    left: 525px;
+}
+.self02{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 75px;
+    left: 875px;
+}
+.grocery{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    top: 11425px;
+    left: 450px;
+}
+.dog2{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 11500px;
+    left: 675px;
+}
+.nostrand{
+    position: absolute;
+    width: 325px;
+    height: auto;
+    top: 11800px;
+    left: 750px;
+}
+.katz{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 11875px;
+    left: 125px;
+}
+.gothic{
+    position: absolute;
+    width: 325px;
+    height: auto;
+    top: 11375px;
+    left: 1025px;
+}
+.grandpa03
+{
+    position: absolute;
+    width: 325px;
+    height: auto;
+    top: 11225px;
+    left: 1025px;
+}
+.threehands
+{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 12125px;
+    left: 675px;
+}
+.waitress
+{
+    position: absolute;
+    width: 525px;
+    height: auto;
+    top: 12400px;
+    left: 225px;
+}
+.deli{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    top: 12500px;
+    left: 1025px;
+}
+.garbage{
+    position: absolute;
+    width: 325px;
+    height: auto;
+    top: 9525px;
+    left: 825px;
+}
+.church{
+    position: absolute;
+    width: 650px;
+    height: auto;
+    top: 12900px;
+    left: 400px;
+}
+.janie01{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 50px;
+    left: 50px;
+}
+.janie03{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 100px;
+    left: 750px;
+}
+.josh01{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 600px;
+    left: 1000px;
+}
+.josh02{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 900px;
+    left: 100px;
+}
+.lydia01{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 900px;
+    left: 450px;
+}
+.jordyn01{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 1225px;
+    left: 750px;
+}
+.q01{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 1800px;
+    left: 225px;
+}
+.josh04{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 1300px;
+    left: 50px;
+}
+.jordyn04{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 1625px;
+    left: 1125px;
+}
+.lydia03{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 2025px;
+    left: 900px;
+}
+.orlagh{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 2400px;
+    left: 125px;
+}
+.annika{
+    position: absolute;
+    width: 475px;
+    height: auto;
+    top: 2475px;
+    left: 850px;
+}
